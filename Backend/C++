@@ -20,10 +20,10 @@ int main() {
 		getchar();
         exit(1);
     }
-cout<<"-------------------------------Your Input--------------------------------------"<<endl;    
+cout<<"-------------------------------Paragraph--------------------------------------"<<endl;    
 while(paragraph.get(para_char))   
 	cout<<para_char;
-cout<<endl<<"-------------------------------Paragraph--------------------------------------"<<endl;
+cout<<endl<<"-------------------------------Your Input--------------------------------------"<<endl;
 while(userinput.get(user_char))   
 	cout<<user_char;
 cout<<endl<<"--------------------------------------------------------------------------------"<<endl;
@@ -35,7 +35,7 @@ paragraph.clear();
 paragraph.seekg(0,ios::beg);
 
    while(paragraph.get(para_char)&&userinput.get(user_char)) 
-   {    if(user_char=='/n')
+   {    if(user_char=='\n')
 	{	index++;line++;continue;}
        
         if(user_char!=para_char)
