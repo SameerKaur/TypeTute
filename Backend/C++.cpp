@@ -1,5 +1,4 @@
-#include <iomanip>
-#include<windows.h>
+
 #include <fstream>
 #include <ctype.h>
 #include <string.h>
