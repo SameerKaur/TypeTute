@@ -1,6 +1,4 @@
-
 #include <fstream>
-#include <ctype.h>
 #include <string.h>
 using namespace std;
 int main() {
